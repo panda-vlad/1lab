@@ -1,3 +1,3 @@
 package main  
 
-const(buildVersion=v1-1-gc55f691)
+const(buildVersion=v1-2-g643f031)
