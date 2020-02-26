@@ -11,7 +11,8 @@ import (
 
 func main() {
 	helper := "usage: git [--help] [--postfix <expression>]"
-
+	
+	fmt.Println(buildVersion) 
 	if len(os.Args) < 2 {
 		err := errors.New("entered incorrect data")
 		log.Fatal(err)
