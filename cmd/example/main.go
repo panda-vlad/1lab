@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	lab1 "github.com/Vlad1slavIP74/1lab"
+	"github.com/Vlad1slavIP74/1lab"
 	"log"
 	"os"
 	s "strings"
@@ -19,7 +19,7 @@ func main() {
 	}
 
 	if os.Args[1] == "postfix" {
-		res, _ := lab1.PostfixToInfix(s.Join(os.Args[2:], " "))
+		res, _ := lab.PostfixToInfix(s.Join(os.Args[2:], " "))
 		fmt.Println(res)
 	} else if os.Args[1] == "help" {
 		fmt.Println(helper)
