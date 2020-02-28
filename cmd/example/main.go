@@ -3,16 +3,16 @@ package main
 import (
 	"errors"
 	"fmt"
-	lab1 "github.com/Vlad1slavIP74/1lab"
 	"log"
 	"os"
+	"github.com/Vlad1slavIP74/1lab"
 	s "strings"
 )
 
 func main() {
 	helper := "usage: git [--help] [--postfix <expression>]"
 	
-	fmt.Println(buildVersion) 
+	fmt.Println(buildVersion)
 	if len(os.Args) < 2 {
 		err := errors.New("entered incorrect data")
 		log.Fatal(err)
