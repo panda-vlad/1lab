@@ -6,7 +6,7 @@ import (
 	"lab"
 	"log"
 	"os"
-	"github.com/Vlad1slavIP74/1lab"
+	lab "github.com/Vlad1slavIP74/1lab"
 	s "strings"
 )
 
