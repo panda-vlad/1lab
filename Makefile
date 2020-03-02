@@ -1,5 +1,6 @@
 TEMP = $(shell git describe)
 
+
 default: out/example
 clean:
 	rm -rf out
