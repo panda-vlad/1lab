@@ -13,3 +13,8 @@ package implementation of postfix to infix notation
  ```javascript
     make test
  ```
+
+# Continuous integration build examples
+
+- [successfull build](https://travis-ci.org/Vlad1slavIP74/1lab/builds/656940600)
+- [failed build](https://travis-ci.org/Vlad1slavIP74/1lab/builds/656940032)
