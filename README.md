@@ -18,3 +18,4 @@ package implementation of postfix to infix notation
 
 - [successfull build](https://travis-ci.org/Vlad1slavIP74/1lab/builds/656940600)
 - [failed build](https://travis-ci.org/Vlad1slavIP74/1lab/builds/656940032)
+- [pull request](https://travis-ci.org/Vlad1slavIP74/1lab/builds/656931609)
